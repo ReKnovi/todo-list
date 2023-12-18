@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->text('description')->nullable();
-            $table->enum('status', ['start', 'pending', 'completed', 'postponed'])->default('start');
-            $table->dateTime('start_date')->nullable();
+            $table->enum('status', ['start', 'pending', 'completed'])->default('start');
+            $table->date('start_date')->nullable();
             // $table->timestamp('postponed_date')->nullable();
             $table->timestamps();
         });

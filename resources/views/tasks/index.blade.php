@@ -33,33 +33,33 @@
             button {
                 color: #007bff; /* Blue text color */
             background-color: transparent; /* Transparent background */
-            padding: 10px 10px; /* Adjust padding as needed */
+            padding:10px 15px; /* Adjust padding as needed */
             border: 2px solid #007bff; /* Blue border */
-            border-radius: 5px; /* Add border radius for rounded corners */
-            text-decoration: none; /* Remove default link underline */
+            border-radius: 4px; /* Add border radius for rounded corners */
+            text-decoration-style:wavy;
             display: inline-block;
             cursor: pointer;
             }
     
-            /* Dynamic button colors based on status */
+            /* Dynamic button colors based on status
             .status-start {
                 background-color: #4caf50;
-                color: #fff;
+                color: #f90b0b;
             }
     
             .status-pending {
                 background-color: #ffc107;
-                color: #000;
+                color: #5200f7;
             }
     
             .status-completed {
                 background-color: #007bff;
                 color: #fff;
-            }
+            } */
     
             /* Hover effect for all buttons */
             button:hover {
-                opacity: 0.8;
+                opacity: 0.5;
             }
         </style>
     </head>
